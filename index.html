@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Trainer profissional com mais de 8 anos de experiência. Treinamento personalizado, emagrecimento, hipertrofia e avaliação física. Agende sua avaliação gratuita." />
+  <meta name="keywords" content="personal trainer, treinamento personalizado, emagrecimento, hipertrofia, avaliação física, academia, fitness" />
+  <meta name="author" content="Personal Trainer" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Personal Trainer | Transformação Real" />
+  <meta property="og:description" content="Treinamento profissional com resultados reais. +500 alunos transformados. Agende sua avaliação." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://seusite.com.br" />
+  <meta property="og:image" content="assets/images/hero-personal.jpg" />
+
+  <title>Personal Trainer | Transformação Real</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__logo">
+        <span class="logo-mark">▲</span>
+        <span class="logo-text">WILL<strong>PERSONAL</strong></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#resultados" class="nav__link">Resultados</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#planos" class="nav__link">Planos</a></li>
+          <li><a href="#blog" class="nav__link">Blog</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#agendamento" class="btn btn--neon header__cta">Agendar Avaliação</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg-grid"></div>
+    <div class="container hero__inner">
+      <div class="hero__content" data-animate="fadeInLeft">
+        <span class="hero__eyebrow">Personal Trainer Certificado</span>
+        <h1 class="hero__title">
+          Seu corpo.<br />
+          <span class="text-neon">Nosso método.</span><br />
+          Resultados reais.
+        </h1>
+        <p class="hero__sub">
+          Transformação não é acidente — é ciência aplicada ao seu corpo. Mais de 8 anos moldando performance, saúde e autoconfiança com protocolos individualizados.
+        </p>
+        <div class="hero__actions">
+          <a href="#agendamento" class="btn btn--neon btn--lg">Começar Agora</a>
+          <a href="#resultados" class="btn btn--ghost btn--lg">Ver Resultados</a>
+        </div>
+
+        <!-- Counters -->
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num" data-target="500">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Alunos Atendidos</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="8">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Anos de Experiência</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="98">0</span><span class="stat__plus">%</span>
+            <span class="stat__label">Taxa de Satisfação</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__image-wrap" data-animate="fadeInRight">
+        <div class="hero__image-glow"></div>
+        <img
+          src="assets/HERO.png"
+          alt="Personal Trainer"
+          class="hero__image"
+          onerror="this.parentElement.classList.add('hero__image-wrap--placeholder')"
+        />
+        <div class="hero__badge">
+          <span class="hero__badge-icon">✦</span>
+          <span>Método Exclusivo</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span>Role para explorar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section sobre" id="sobre">
+    <div class="container sobre__inner">
+      <div class="sobre__image-col" data-animate="fadeInLeft">
+        <div class="sobre__img-frame">
+          <img
+            src="assets/HERO.png"
+            alt="Personal Trainer"
+            class="sobre__img"
+            onerror="this.parentElement.classList.add('sobre__img-frame--placeholder')"
+          />
+          <div class="sobre__img-tag">
+            <strong>CREF</strong> Certificado
+          </div>
+        </div>
+      </div>
+
+      <div class="sobre__content" data-animate="fadeInRight">
+        <span class="section__eyebrow">Quem sou eu</span>
+        <h2 class="section__title">Ciência, dedicação<br /><span class="text-neon">e resultado.</span></h2>
+        <p class="sobre__text">
+          Sou formado em Educação Física pela USP, com pós-graduação em Fisiologia do Exercício e mais de 8 anos de prática clínica transformando corpos e autoestimas. Acredito que cada aluno é único — por isso cada protocolo é construído do zero, baseado em dados, não em modelos genéricos.
+        </p>
+        <p class="sobre__text">
+          Ao longo da minha carreira, trabalhei com atletas amadores, executivos de alta performance, mulheres pós-parto e idosos em reabilitação. Essa diversidade me deu uma visão que poucos profissionais têm: o corpo humano responde quando é respeitado.
+        </p>
+
+        <!-- Certifications -->
+        <div class="certs">
+          <div class="cert-card">
+            <span class="cert-card__icon">🎓</span>
+            <div>
+              <strong>Educação Física</strong>
+              <span>Bacharelado — USP</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-card__icon">⚗️</span>
+            <div>
+              <strong>Fisiologia do Exercício</strong>
+              <span>Pós-Graduação — UNIFESP</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-card__icon">🏆</span>
+            <div>
+              <strong>Nutrição Esportiva</strong>
+              <span>Certificação Internacional</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <span class="cert-card__icon">📊</span>
+            <div>
+              <strong>Avaliação Funcional</strong>
+              <span>FMS Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="section servicos" id="servicos">
+    <div class="container">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">O que ofereço</span>
+        <h2 class="section__title">Serviços <span class="text-neon">especializados</span></h2>
+        <p class="section__sub">Cada modalidade é conduzida com protocolos baseados em evidências, adaptados ao seu perfil, ritmo e objetivo.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4v16M18 4v16M6 12h12"/></svg>
+          </div>
+          <h3>Treinamento Presencial</h3>
+          <p>Sessões individuais com supervisão técnica total. Cada exercício monitorado para máxima segurança e eficiência.</p>
+          <span class="service-card__tag">Presencial</span>
+        </div>
+
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Consultoria Online</h3>
+          <p>Planilhas de treino e acompanhamento semanal via app. Ideal para quem tem rotina intensa ou mora fora da cidade.</p>
+          <span class="service-card__tag">Online</span>
+        </div>
+
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8 2 4 6 4 10c0 6 8 12 8 12s8-6 8-12c0-4-4-8-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Emagrecimento</h3>
+          <p>Protocolo específico para perda de gordura com preservação de massa magra. Sem dietas miraculosas, só ciência.</p>
+          <span class="service-card__tag">Especialidade</span>
+        </div>
+
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/><circle cx="12" cy="12" r="9"/></svg>
+          </div>
+          <h3>Hipertrofia</h3>
+          <p>Ganho de massa muscular com periodização inteligente. Progressão de cargas, volume e densidade calculados para você.</p>
+          <span class="service-card__tag">Especialidade</span>
+        </div>
+
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3>Preparação Física</h3>
+          <p>Para atletas e praticantes de esportes. Condicionamento, potência, velocidade e resistência com foco na modalidade.</p>
+          <span class="service-card__tag">Performance</span>
+        </div>
+
+        <div class="service-card" data-animate="fadeInUp">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
+          </div>
+          <h3>Avaliação Física</h3>
+          <p>Diagnóstico completo: composição corporal, postura, força, flexibilidade e VO₂ máx. Base para qualquer protocolo eficaz.</p>
+          <span class="service-card__tag">Diagnóstico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESULTADOS ===== -->
+  <section class="section resultados" id="resultados">
+    <div class="container">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">Antes & Depois</span>
+        <h2 class="section__title">Resultados que <span class="text-neon">falam por si</span></h2>
+        <p class="section__sub">Cada foto representa dedicação, método e uma história de superação real.</p>
+      </div>
+
+      <div class="results-grid">
+        <div class="result-card" data-animate="fadeInUp" onclick="openModal('assets/images/resultado1.jpg', 'Resultado 1 — Emagrecimento: -18kg em 5 meses')">
+          <div class="result-card__img-wrap">
+            <img src="assets/images/resultado1.jpg" alt="Resultado 1" class="result-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <div class="result-card__overlay">
+              <span>🔍 Ver detalhes</span>
+            </div>
+          </div>
+          <div class="result-card__info">
+            <strong>Ana Paula, 34</strong>
+            <span>−18kg · 5 meses · Emagrecimento</span>
+          </div>
+        </div>
+
+        <div class="result-card" data-animate="fadeInUp" onclick="openModal('assets/images/resultado2.jpg', 'Resultado 2 — Hipertrofia: +8kg de massa magra em 8 meses')">
+          <div class="result-card__img-wrap">
+            <img src="assets/images/resultado2.jpg" alt="Resultado 2" class="result-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <div class="result-card__overlay">
+              <span>🔍 Ver detalhes</span>
+            </div>
+          </div>
+          <div class="result-card__info">
+            <strong>Carlos, 28</strong>
+            <span>+8kg massa magra · 8 meses · Hipertrofia</span>
+          </div>
+        </div>
+
+        <div class="result-card" data-animate="fadeInUp" onclick="openModal('assets/images/resultado3.jpg', 'Resultado 3 — Redefinição corporal: 12 semanas')">
+          <div class="result-card__img-wrap">
+            <img src="assets/images/resultado3.jpg" alt="Resultado 3" class="result-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <div class="result-card__overlay">
+              <span>🔍 Ver detalhes</span>
+            </div>
+          </div>
+          <div class="result-card__info">
+            <strong>Marina, 41</strong>
+            <span>Redefinição corporal · 12 semanas</span>
+          </div>
+        </div>
+
+        <div class="result-card" data-animate="fadeInUp" onclick="openModal('assets/images/resultado4.jpg', 'Resultado 4 — Preparação para maratona: 6 meses')">
+          <div class="result-card__img-wrap">
+            <img src="assets/images/resultado4.jpg" alt="Resultado 4" class="result-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <div class="result-card__overlay">
+              <span>🔍 Ver detalhes</span>
+            </div>
+          </div>
+          <div class="result-card__info">
+            <strong>Roberto, 45</strong>
+            <span>Maratona completada · 6 meses prep.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal de galeria -->
+  <div class="modal" id="modal" onclick="closeModal()">
+    <div class="modal__inner" onclick="event.stopPropagation()">
+      <button class="modal__close" onclick="closeModal()">✕</button>
+      <img src="" alt="" class="modal__img" id="modalImg" />
+      <p class="modal__caption" id="modalCaption"></p>
+    </div>
+  </div>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section class="section depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">Depoimentos</span>
+        <h2 class="section__title">O que dizem <span class="text-neon">meus alunos</span></h2>
+      </div>
+
+      <div class="carousel" data-animate="fadeInUp">
+        <div class="carousel__track" id="carouselTrack">
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Tentei emagrecer por 3 anos sem sucesso. Em 4 meses com o protocolo dele, perdi 15kg e finalmente entendi o que meu corpo precisa. Método sério, acompanhamento real."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">AP</div>
+              <div>
+                <strong>Ana Paula Ferreira</strong>
+                <span>Perda de 15kg · Emagrecimento</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Sou executivo, meu tempo é escasso. A consultoria online foi a solução perfeita. Treino eficiente, feedback semanal e evoluo todo mês. Resultado visível em 60 dias."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">RM</div>
+              <div>
+                <strong>Ricardo Moura</strong>
+                <span>Consultoria Online · 6 meses</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Depois de dois filhos achei que jamais teria meu corpo de volta. Ele me provou o contrário. Metodologia impecável, muito além de qualquer personal que já tive."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MC</div>
+              <div>
+                <strong>Marina Costa</strong>
+                <span>Pós-parto · Redefinição Corporal</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Corri minha primeira meia maratona aos 47 anos. Nunca imaginei que seria possível. O treino de preparação foi cirúrgico — fui do sofá para a linha de chegada em 6 meses."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">JS</div>
+              <div>
+                <strong>José Santos</strong>
+                <span>Preparação Física · Corrida</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"A avaliação física inicial foi reveladora. Identifiquei desequilíbrios que eu sequer sabia que existiam. O protocolo montado a partir daí foi transformador em todos os sentidos."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">LR</div>
+              <div>
+                <strong>Luciana Ramos</strong>
+                <span>Avaliação + Treino Funcional</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel__controls">
+          <button class="carousel__btn" id="prevBtn" aria-label="Anterior">&#8592;</button>
+          <div class="carousel__dots" id="carouselDots"></div>
+          <button class="carousel__btn" id="nextBtn" aria-label="Próximo">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLANOS ===== -->
+  <section class="section planos" id="planos">
+    <div class="container">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">Investimento</span>
+        <h2 class="section__title">Escolha seu <span class="text-neon">plano</span></h2>
+        <p class="section__sub">Sem taxas ocultas. Cada plano inclui avaliação física completa gratuita no primeiro mês.</p>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Básico -->
+        <div class="plan-card" data-animate="fadeInUp">
+          <div class="plan-card__header">
+            <span class="plan-card__tier">Básico</span>
+            <div class="plan-card__price">
+              <span class="plan-card__currency">R$</span>
+              <span class="plan-card__value">597</span>
+              <span class="plan-card__period">/mês</span>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li>✓ 8 sessões presenciais/mês</li>
+            <li>✓ Planilha de treino personalizada</li>
+            <li>✓ Avaliação física inicial</li>
+            <li>✓ Suporte via WhatsApp (horário comercial)</li>
+            <li class="muted">✗ Consultoria nutricional</li>
+            <li class="muted">✗ Acesso à plataforma premium</li>
+          </ul>
+          <a href="#agendamento" class="btn btn--ghost btn--full">Começar</a>
+        </div>
+
+        <!-- Premium (destaque) -->
+        <div class="plan-card plan-card--featured" data-animate="fadeInUp">
+          <div class="plan-card__badge">Mais Escolhido</div>
+          <div class="plan-card__header">
+            <span class="plan-card__tier">Premium</span>
+            <div class="plan-card__price">
+              <span class="plan-card__currency">R$</span>
+              <span class="plan-card__value">997</span>
+              <span class="plan-card__period">/mês</span>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li>✓ 12 sessões presenciais/mês</li>
+            <li>✓ Planilha de treino personalizada</li>
+            <li>✓ Avaliação física mensal</li>
+            <li>✓ Suporte ilimitado via WhatsApp</li>
+            <li>✓ Orientação nutricional básica</li>
+            <li>✓ Acesso à plataforma premium</li>
+          </ul>
+          <a href="#agendamento" class="btn btn--neon btn--full">Contratar Agora</a>
+        </div>
+
+        <!-- Elite -->
+        <div class="plan-card" data-animate="fadeInUp">
+          <div class="plan-card__header">
+            <span class="plan-card__tier">Elite</span>
+            <div class="plan-card__price">
+              <span class="plan-card__currency">R$</span>
+              <span class="plan-card__value">1.497</span>
+              <span class="plan-card__period">/mês</span>
+            </div>
+          </div>
+          <ul class="plan-card__features">
+            <li>✓ Sessões ilimitadas/mês</li>
+            <li>✓ Protocolo totalmente exclusivo</li>
+            <li>✓ Avaliação física quinzenal</li>
+            <li>✓ Suporte 24h via WhatsApp</li>
+            <li>✓ Consultoria nutricional completa</li>
+            <li>✓ Análise de bioimpedância mensal</li>
+          </ul>
+          <a href="#agendamento" class="btn btn--ghost btn--full">Contratar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AGENDAMENTO ===== -->
+  <section class="section agendamento" id="agendamento">
+    <div class="container agendamento__inner">
+      <div class="agendamento__content" data-animate="fadeInLeft">
+        <span class="section__eyebrow">Avaliação Gratuita</span>
+        <h2 class="section__title">Dê o primeiro<br /><span class="text-neon">passo hoje.</span></h2>
+        <p>Agende sua avaliação física gratuita. Sem compromisso — venha conhecer o método e entender o que seu corpo precisa para evoluir de verdade.</p>
+        <ul class="agendamento__perks">
+          <li>✦ Avaliação completa de composição corporal</li>
+          <li>✦ Análise postural e funcional</li>
+          <li>✦ Definição dos seus objetivos</li>
+          <li>✦ Proposta de protocolo personalizado</li>
+        </ul>
+      </div>
+
+      <form class="schedule-form" id="scheduleForm" data-animate="fadeInRight" novalidate>
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+          <span class="form-error" id="nomeError"></span>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required />
+          <span class="form-error" id="telefoneError"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+          <span class="form-error" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="objetivo">Objetivo principal</label>
+          <select id="objetivo" name="objetivo" required>
+            <option value="">Selecione seu objetivo</option>
+            <option value="Emagrecimento">Emagrecimento</option>
+            <option value="Hipertrofia">Hipertrofia / Ganho de massa</option>
+            <option value="Preparação física">Preparação física / Esporte</option>
+            <option value="Saúde e qualidade de vida">Saúde e qualidade de vida</option>
+            <option value="Reabilitação">Reabilitação e funcional</option>
+          </select>
+          <span class="form-error" id="objetivoError"></span>
+        </div>
+        <div class="form-group">
+          <label for="data">Data desejada</label>
+          <input type="date" id="data" name="data" required />
+          <span class="form-error" id="dataError"></span>
+        </div>
+        <button type="submit" class="btn btn--neon btn--full btn--lg">
+          Agendar via WhatsApp →
+        </button>
+        <p class="form-disclaimer">Ao enviar, você será direcionado ao WhatsApp com sua mensagem pré-preenchida.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">Blog Fitness</span>
+        <h2 class="section__title">Conhecimento que <span class="text-neon">transforma</span></h2>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card" data-animate="fadeInUp">
+          <div class="blog-card__img-wrap">
+            <img src="assets/images/blog1.jpg" alt="Como emagrecer corretamente" class="blog-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <span class="blog-card__category">Emagrecimento</span>
+          </div>
+          <div class="blog-card__body">
+            <h3>Como emagrecer corretamente sem perder massa muscular</h3>
+            <p>A maioria das dietas falha porque ignora um fator crucial: a preservação do tecido muscular. Veja o método certo.</p>
+            <a href="#" class="blog-card__link">Ler artigo →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-animate="fadeInUp">
+          <div class="blog-card__img-wrap">
+            <img src="assets/images/blog2.jpg" alt="Como ganhar massa muscular" class="blog-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <span class="blog-card__category">Hipertrofia</span>
+          </div>
+          <div class="blog-card__body">
+            <h3>Ganho de massa muscular: o que a ciência diz em 2025</h3>
+            <p>Volume, frequência, progressão de carga e recuperação — os quatro pilares que a maioria ignora. Entenda cada um.</p>
+            <a href="#" class="blog-card__link">Ler artigo →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-animate="fadeInUp">
+          <div class="blog-card__img-wrap">
+            <img src="assets/images/blog3.jpg" alt="Importância da avaliação física" class="blog-card__img" onerror="this.parentElement.classList.add('img--placeholder')" />
+            <span class="blog-card__category">Saúde</span>
+          </div>
+          <div class="blog-card__body">
+            <h3>Por que a avaliação física é o ponto de partida de tudo</h3>
+            <p>Treinar sem avaliar é como construir sem fundação. Descubra o que uma avaliação completa revela sobre o seu corpo.</p>
+            <a href="#" class="blog-card__link">Ler artigo →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section contato" id="contato">
+    <div class="container contato__inner">
+      <div class="section__header" data-animate="fadeInUp">
+        <span class="section__eyebrow">Contato</span>
+        <h2 class="section__title">Vamos <span class="text-neon">conversar?</span></h2>
+      </div>
+
+      <div class="contato__channels">
+        <a href="https://wa.me/5511999999999" target="_blank" class="contact-channel" data-animate="fadeInUp">
+          <div class="contact-channel__icon contact-channel__icon--green">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </div>
+          <div>
+            <strong>WhatsApp</strong>
+            <span>(11) 99999-9999</span>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/seuperfil" target="_blank" class="contact-channel" data-animate="fadeInUp">
+          <div class="contact-channel__icon contact-channel__icon--purple">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+          <div>
+            <strong>Instagram</strong>
+            <span>@elitefit.personal</span>
+          </div>
+        </a>
+
+        <a href="mailto:contato@elitefit.com.br" class="contact-channel" data-animate="fadeInUp">
+          <div class="contact-channel__icon contact-channel__icon--blue">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <div>
+            <strong>E-mail</strong>
+            <span>contato@elitefit.com.br</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Map placeholder -->
+      <div class="map-placeholder" data-animate="fadeInUp">
+        <div class="map-placeholder__inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>Curitiba, PR<br /><small>Insira aqui o iframe do Google Maps</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="header__logo">
+          <span class="logo-mark">▲</span>
+          <span class="logo-text">ELITE<strong>FIT</strong></span>
+        </a>
+        <p>Transformação com método, ciência e dedicação. Seu melhor resultado começa aqui.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Treinamento Presencial</a></li>
+          <li><a href="#servicos">Consultoria Online</a></li>
+          <li><a href="#servicos">Emagrecimento</a></li>
+          <li><a href="#servicos">Hipertrofia</a></li>
+          <li><a href="#servicos">Avaliação Física</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__links">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5511999999999">(11) 99999-9999</a></li>
+          <li><a href="mailto:contato@elitefit.com.br">contato@elitefit.com.br</a></li>
+          <li><a href="#">Curitiba — PR</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 EliteFit Personal Trainer. Todos os direitos reservados.</p>
+        <p>Desenvolvido com ✦ para alta performance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
